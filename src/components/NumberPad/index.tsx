@@ -20,7 +20,6 @@ const NumberPad: React.FC<MyCodeParams> = ({ onPress }) => {
     "7",
     "8",
     "9",
-    <MaterialIcons name="check" size={24} />,
     "0",
     <MaterialIcons name="keyboard-backspace" size={24} />,
   ];
