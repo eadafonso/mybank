@@ -1,0 +1,51 @@
+export default [
+  {
+    id: "1",
+    product: "Tranferência para Eadfast",
+    store: "Eadfast",
+    price: "1.000.00 kz",
+    data: "2020-04-10",
+    adress: "Transferência Bancária",
+  },
+  {
+    id: "2",
+    product: "Tranferência para Inzoiami",
+    store: "Inzoiami",
+    price: "100.000 kz",
+    data: "2020-04-10",
+    adress: "Transferência Bancária",
+  },
+  {
+    id: "3",
+    product: "Levantamento sem cartão",
+    store: "MyBank",
+    price: "9000.00 kz",
+    data: "2020-04-10",
+    adress: "Transferência Bancária",
+  },
+  {
+    id: "4",
+    product: "Levantamento sem cartão",
+    store: "MyBank",
+    price: "600.000 kz",
+    data: "2020-04-10",
+    adress: "Pagamento de Serviço",
+  },
+  {
+    id: "5",
+    product: "Levantamento sem cartão",
+    store: "MyBank",
+    price: "2.000.00 kz",
+    data: "2020-04-10",
+    adress: "Depósito",
+  },
+
+  {
+    id: "6",
+    product: "Levantamento sem cartão",
+    store: "MyBank",
+    price: "500.000 kz",
+    data: "2020-04-10",
+    adress: "Depósito",
+  },
+];
