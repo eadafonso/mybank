@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add @react-navigation/native
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add @react-navigation/bottom-tabs
 
 PATH: 
   /home/eadafonso/.symfony/bin:/home/eadafonso/.symfony/bin:/home/eadafonso/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eadafonso/Android/Sdk/emulator:/home/eadafonso/Android/Sdk/tools:/home/eadafonso/Android/Sdk/tools/bin:/home/eadafonso/Android/Sdk/platform-tools:/Applications/MAMP/Library/bin:/home/eadafonso/android-studio/bin:/opt/gradle/gradle-6.7/bin
