@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Fontisto, MaterialIcons } from "@expo/vector-icons";
+import { Fontisto } from "@expo/vector-icons";
 import { Text } from "../styles/Text";
 import {
   Container,
@@ -17,6 +17,12 @@ const PinScreen: React.FC = () => {
   const [pinCount, setPincount] = useState(0);
 
   const totalPin = 6;
+
+  useEffect(() => {
+    if (pinCount === totalPin) {
+      navigation.navigate("Tabs");
+    }
+  }, [pinCount]);
 
   const renderPin = () => {
     const pins = [];

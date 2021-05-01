@@ -1,4 +1,4 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
   background-color: #1e1e1e;
@@ -6,13 +6,13 @@ export const Container = styled.SafeAreaView`
   justify-content: center;
 `;
 
-export const AcessPin = styled.View `
+export const AcessPin = styled.View`
   flex-direction: row;
   justify-content: space-between;
   margin: 36px 64px 16px 64px;
 `;
 
-export const USseTouch = styled.TouchableOpacity `
+export const USseTouch = styled.TouchableOpacity`
   flex-direction: row;
   padding: 15px;
   margin-top: 16px;
@@ -20,7 +20,7 @@ export const USseTouch = styled.TouchableOpacity `
   justify-content: center;
 `;
 
-export const PinContainer = styled.View `
+export const PinContainer = styled.View`
   width: 16px;
   height: 16px;
   border-radius: 8px;
@@ -28,11 +28,11 @@ export const PinContainer = styled.View `
   border-color: #5196f4;
   align-items: center;
   justify-content: center;
-`
-export const Pin = styled.View `
+`;
+export const Pin = styled.View`
   width: 8px;
   height: 8px;
   border-radius: 4px;
   border-color: #5196f4;
   background-color: #5196f4;
-`
+`;
