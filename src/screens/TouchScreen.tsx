@@ -23,12 +23,15 @@ const TouchScreen: React.FC = () => {
           myBank
         </Text>
 
-        <Touch onLongPress={() => navigation.navigate("Tabs")} delayPressIn={0}>
+        <Touch>
           <Circle bgColor="#1e1e1e">
             <Circle bgColor="#5196f405">
               <Circle bgColor="#5196f410">
                 <Circle bgColor="#5196f430">
-                  <TouchButton>
+                  <TouchButton
+                    onLongPress={() => navigation.navigate("Tabs")}
+                    delayPressIn={0}
+                  >
                     <MaterialIcons name="fingerprint" size={64} color="#fff" />
                   </TouchButton>
                 </Circle>
