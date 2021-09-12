@@ -1,4 +1,4 @@
-# BAnk UI
+# Bank UI
 
 Um Aplicativo de Banco em React Native (Expo)
 
